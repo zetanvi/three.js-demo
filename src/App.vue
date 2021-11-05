@@ -11,7 +11,4 @@ export default {
 </script>
 
 <style  src="./assets/reset.css"></style>
-<style lang="scss" scoped>
-#app {
-}
 </style>

@@ -212,7 +212,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 #home {
   position: absolute;
   top: 0;
@@ -220,31 +220,38 @@ export default {
   width: 100%;
   height: 100%;
   background-color: skyblue;
-  #tan {
+}
+
+#tan {
     position: absolute;
     color: #fff;
     z-index: 102;
     padding-left: 17px;
     padding-top: 21px;
     padding-bottom: 21px;
-    .box {
+    
+  }
+  .box {
       width: 100%;
       height: 100%;
       font-size: 20px;
       line-height: 30px;
       color: #fff;
       position: relative;
-      .equpic {
+      
+    }
+    .equpic {
         width: 67px;
         height: 62px;
         position: absolute;
         top: 0px;
         right: 21px;
-        img {
+        
+      }
+      .equpic img {
           width: 100%;
           height: 100%;
         }
-      }
       .gastype {
         font-size: 24px;
         font-weight: 500;
@@ -254,18 +261,16 @@ export default {
         font-weight: 700;
         line-height: 44px;
         margin-bottom: 30px;
-        span {
+        
+      }
+      .gasnum span {
           font-size: 20px;
           line-height: 24px;
         }
-      }
       .equstatus {
         font-weight: 500;
       }
-    }
-  }
-
-  .green {
+.green {
     color: #00ff6d;
   }
 
@@ -305,5 +310,4 @@ export default {
     box-sizing: border-box;
     box-shadow: 0px 0px 11px rgba(255, 184, 0, 0.3);
   }
-}
 </style>

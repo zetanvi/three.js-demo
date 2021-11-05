@@ -21,7 +21,7 @@ export default {
 };
 </script>
 
-<style lang='scss' scoped>
+<style scoped>
 #login {
   height: 100%;
   width: 100%;
